@@ -1,0 +1,50 @@
+/* ----- General ----- */
+html, body {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: var(--background, #fafafa);
+    color: var(--text, #212529);
+}
+
+/* ----- Card ----- */
+.card {
+    background: var(--card, #ffffff);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 1rem;
+}
+
+/* ----- Preformatted brief ----- */
+.card pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* ----- Answer block ----- */
+.answer {
+    background: #e6f7ff;
+    border-left: 4px solid #0e7c7b;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+/* ----- Accent color (teal) ----- */
+[data-theme="light"] .stButton>button {
+    background-color: #0e7c7b;
+    color: #fff;
+}
+[data-theme="light"] .stButton>button:hover {
+    background-color: #0a5c5b;
+}
+
+[data-theme="light"] .stDownloadButton>button {
+    border: 2px solid #0e7c7b;
+    color: #0e7c7b;
+    background: transparent;
+}
+[data-theme="light"] .stDownloadButton>button:hover {
+    background: #0e7c7b10;
+}
